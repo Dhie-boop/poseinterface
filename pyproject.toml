@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.11.0"
 dynamic = ["version"]
 
-dependencies = []
+dependencies = [
+  "sleap-io",
+]
 
 license = {text = "BSD-3-Clause"}
 
@@ -39,6 +41,16 @@ dev = [
   "pre-commit",
   "ruff",
   "setuptools-scm",
+]
+docs = [
+  "linkify-it-py",
+  "myst-parser",
+  "nbsphinx",
+  "pydata-sphinx-theme",
+  "setuptools-scm",
+  "sphinx",
+  "sphinx-autodoc-typehints",
+  "sphinx-sitemap",
 ]
 
 [build-system]
