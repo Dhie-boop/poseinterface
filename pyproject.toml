@@ -35,6 +35,7 @@ classifiers = [
 dev = [
   "pytest",
   "pytest-cov",
+  "pytest-lazy-fixtures",
   "coverage",
   "tox",
   "mypy",
